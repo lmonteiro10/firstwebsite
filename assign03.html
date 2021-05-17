@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--A title for the window - <title> tag.-->
+    <title>Lucas Monteiro's Web Page</title>
+    <meta name="msapplication-TileColor" content="#416f97">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#416f97">
+    <link rel="stylesheet" href="assign03.css">
+    <style>
+
+        *{
+            
+            box-sizing: border-box;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+
+        header {
+            height: 60px;
+            width: 101.38%;
+            background-color: #47199bbe;
+            margin-top: -10px;
+            margin-left: -10px; 
+            color: white;           
+        }
+        nav{
+            height: 20px;
+            width: 50%;
+        }
+
+        #menu ul {
+            padding:0px;
+            margin:0px;
+            list-style:none;
+        }
+
+        #menu ul li { 
+            display: inline;
+            margin-left: 2px;
+        }
+
+        #menu ul li a {
+            padding: 2px 10px;
+            display: inline-block;
+
+            /* visual do link */
+            background-color:#240166be;
+            color: white;
+            text-decoration: none;
+            border-bottom:3px solid #EDEDED;
+        }
+        #menu ul li a:hover {
+            background-color:black;
+            color: white;
+            border-bottom:3px solid red;
+        }
+    </style>
+</head>
+<body>
+    <!--A <header> tag (This is an HTML 5 Tag) indicating a header for the web page. 
+        (Note: this is not the <head> tag.)-->
+    <header>
+        <nav id="menu">
+            <ul>
+                <!--Include two or more external links. For example: one link might be to I-Learn and 
+                    the other to the class website for CS213.-->
+                <li><a href="https://degreeportal.byupathway.org/#/" target="_blank">Portal</a></li>
+
+                <!--Two internal anchors (links) where the target is within the current document. 
+                    For example you could have a link that jumps directly to your form area and 
+                    another that jumps to the bottom of your home page. (Be creative!)-->
+
+                <li><a href="#form">Newsletter</a></li>
+                <li><a href="#degree">Degree</a></li>
+                <li><a href="../index.html">CS213</a></li>
+            </ul>
+        </nav>
+        <h2>WEB ENGINNERING I - WEEK 3</h2>
+        <hr>
+    </header>
+    <br>
+    <div id="main">
+        <!--You must include at least two Images in your home page. One of the images or 
+                    icons must also be a link.-->
+        <div id= "img"><img src="me.jpg" alt="A Picture of me!" width="250" ></div>
+        <div id="profile">
+            <br>
+            <br>
+            <br>
+                <div>
+                    <label style="font-family: Verdana;"><b>Name: </b></label>Lucas Silva Monteiro Santos <br>
+                    <label style="font-family: Verdana;"><b>Major: </b></label>Applied Technology<br>
+                    <label style="font-family: Verdana;"><b>Age: </b></label>25<br>
+                    <label style="font-family: Verdana;"><b>State: </b></label> Espírito Santo<br>
+                    <label style="font-family: Verdana;"><b>Country: </b></label>Brazil <br>
+                </div>
+            <br>
+            <br>
+                <div>
+                    <!--Include a paragraph and text using some nice formatting features 
+                        (headings, bold, italic, horizontal rules, etc).-->
+                    <p>My name is <b>Lucas Monteiro</b> and I'm 25 years old. I live in Vila
+                    Velha, Brazil. I served a misson in Bahia, Brazil from <i>2014</i> to <i>2016</i>. I got 
+                    back and two years later I got married to a wonderful woman and I know it 
+                    was the best decision I have ever made. We've been married for about 2 
+                    years now.
+                    I work in a Technology company that sales and fixes computers. We also give
+                    tax consultancy. I like what I do, but I really wanna work as a developer,
+                    that's why I'm doing this course.
+                    </p>
+                </div>    
+        </div>    
+    </div>
+    <div id= "icon1"><img id="imgicon1" src="https://image.flaticon.com/icons/png/128/4253/4253350.png" alt="icon1"></div>
+    <div id= "icon2"><img id="imgicon2" src="https://image.flaticon.com/icons/png/128/4253/4253357.png" alt="icon2"></div>
+    <div id= "icon3"><img id="imgicon3" src="https://image.flaticon.com/icons/png/128/4253/4253373.png" alt="icon3"></div>
+    <div id= "icon4"><img id="imgicon4" src="https://image.flaticon.com/icons/png/128/4253/4253286.png" alt="icon4"></div>
+    <br>
+    <div id="degree">
+        <table style="width: 100%; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; border-collapse: collapse;">
+            <tr>
+                <th style="text-align: center; border: 1px solid #dddddd;">Course</th>
+                <th style="text-align: center; border: 1px solid #dddddd;">Course Description</th>
+                <th style="text-align: center; border: 1px solid #dddddd;">Sec #</th>
+                <th style="text-align: center; border: 1px solid #dddddd;">Class Time</th>
+                <th style="text-align: center; border: 1px solid #dddddd;">Class Location</th>
+            </tr>
+            <tr>
+                <td style="text-align: center; border: 1px solid #dddddd;"><a href="https://byui.instructure.com/courses/142958">CS 213</a></td>
+                <td style="text-align: center; border: 1px solid #dddddd;">Web Engineering I</td>
+                <td style="text-align: center; border: 1px solid #dddddd;">8</td>
+                <td style="text-align: center; border: 1px solid #dddddd;">Online</td>
+                <td style="text-align: center; border: 1px solid #dddddd;">BYU Idaho Online</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; border: 1px solid #dddddd;"><a href="https://byui.instructure.com/courses/142908">CS 246</a></td>
+                <td style="text-align: center; border: 1px solid #dddddd;">Software Design and Development</td>
+                <td style="text-align: center; border: 1px solid #dddddd;">5</td>
+                <td style="text-align: center; border: 1px solid #dddddd;">Online</td>
+                <td style="text-align: center; border: 1px solid #dddddd;">BYU Idaho Online</td>    
+            </tr>
+        </table>
+    </div> 
+        <div id="form_div">
+            <!--Your home page must use at least one form. Input types can be divided between multiple forms, but 
+                your html page must include at least one of each of the following input types: -->
+            <form id="form">
+            <h3>Newsletter</h3>
+                <!--A single line text entry field.-->
+                <label for="name">First Name: <input id="name" required type="text" name="firstname" placeholder="Enter your name"></label><br>
+                <label for="email">E-mail: <input id="email" required type="email" name="email" placeholder="example@email.com"></label><br>
+                <label for="whatsapp">Whatsapp: <input id="whatsapp" required type="tel" name="phone" placeholder="+55 (32)12345-4567"></label><br>
+                <!--A select menu with a minimum of three options (<select><option></option></select>)-->
+                <label for="age">Select your age:
+                    <select id="age">
+                        <option value="" selected disabled>None</option>
+                        <option value="under 18">Under 18</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="over 30">Over 30</option>
+                    </select>
+                </label><br>
+                <!--A list which includes at least three radio buttons-->
+                Select your gender: <br>
+                <label for="male"><input id="male" type="radio" name="male">Male</label>
+                <label for="female"><input id="female" type="radio" name="female">Female</label>
+                <label for="other"><input id="other" type="radio" name="other">Other</label>
+                <br>
+                <!--A multi-line text entry field (<textarea>)-->
+                <label for="message">Message: <br><textarea id="message" name="message" placeholder="Type your message" cols="30" rows="10"></textarea></label><br>
+                <!--A list which is made up of at least three checkboxes.-->
+                <label for="terms"><input id="terms" type="checkbox" name="terms">I accept the terms and conditions</label><br>
+                <label for="e-mail"><input id="e-mail" type="checkbox" name="e-mail">Send me e-mail newsletter</label><br>
+                <label for="whatsappphone"><input id="whatsappphone" type="checkbox" name="whatsapp">Add me on a Whatsapp group</label><br>
+
+                <div id="buttoms">
+                <!--Submit button.-->    
+                <input type="submit" value="Submit">
+                <!--Reset button.-->
+                <input type="reset" value="Reset">
+                </div>
+            </form>
+        </div>
+        <div id="bquote">
+            <blockquote>
+                <hr>
+                "Effort outweighs talent when talent doesn't strive"
+                - Kevin Durant
+                <hr>
+            </blockquote>
+        </div>   
+        <div id="footer">
+        <!--A <footer> tag.-->
+            <footer>
+                <!--You must include at least two Images in your home page. One of the images or 
+                    icons must also be a link.-->
+                <div>
+                    Connect with me on Linkedin <a href="https://www.linkedin.com/in/lucasmonteiro10/" target="_blank">
+                    <img id="linkedin" src="data:image/png;base64,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" alt="linkedin"></a>    
+                </div>
+            </footer>
+        </div>        
+</body>
+</html>
